@@ -1,4 +1,4 @@
-# React starter kit with Typescript
+# マイクラめもりあ鯖ウェブ
 
 ## スクリプト一覧
 

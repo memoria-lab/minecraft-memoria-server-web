@@ -1,0 +1,291 @@
+{
+  "mods": [
+    {
+      "name": "Minecraft Forge",
+      "description": "前提MOD。",
+      "link": "https://files.minecraftforge.net/net/minecraftforge/forge/index_1.12.2.html",
+      "serverOnly": false,
+      "clientOnly": false
+    },
+    {
+      "name": "OptiFine",
+      "description": "描画設定拡張・軽量化MOD。",
+      "link": "https://optifine.net/adloadx?f=OptiFine_1.12.2_HD_U_G5.jar",
+      "serverOnly": false,
+      "clientOnly": true
+    },
+    {
+      "name": "BetterFps",
+      "description": "Minecraft内部のアルゴリズムを変更して、FPSを向上させる。",
+      "link": "https://www.curseforge.com/minecraft/mc-mods/betterfps/files/2483393",
+      "serverOnly": false,
+      "clientOnly": false
+    },
+    {
+      "name": "FastFurnace",
+      "description": "かまどのパフォーマンスを向上させる。",
+      "link": "https://www.curseforge.com/minecraft/mc-mods/fastfurnace/files/2706111",
+      "serverOnly": false,
+      "clientOnly": false
+    },
+    {
+      "name": "FastWorkbench",
+      "description": "作業台のパフォーマンスを向上させる。",
+      "link": "https://www.curseforge.com/minecraft/mc-mods/fastworkbench/files/2838777",
+      "serverOnly": false,
+      "clientOnly": false
+    },
+    {
+      "name": "Placebo",
+      "description": "FastWorkbenchの前提MOD。",
+      "link": "https://www.curseforge.com/minecraft/mc-mods/placebo/files/2694382",
+      "serverOnly": false,
+      "clientOnly": false
+    },
+    {
+      "name": "FPS Reducer",
+      "description": "無操作時や非アクティブ時にFPSを低下させて負荷を軽減する。",
+      "link": "https://www.curseforge.com/minecraft/mc-mods/fps-reducer/files/3042760",
+      "serverOnly": false,
+      "clientOnly": true
+    },
+    {
+      "name": "Smooth Font",
+      "description": "文字の視認性を向上させる。",
+      "link": "https://www.curseforge.com/minecraft/mc-mods/smooth-font/files/2949817",
+      "serverOnly": false,
+      "clientOnly": true
+    },
+    {
+      "name": "VoxelMap",
+      "description": "地形表示や空洞確認などのできるマップ。",
+      "link": "https://www.curseforge.com/minecraft/mc-mods/voxelmap/files/3029445",
+      "serverOnly": false,
+      "clientOnly": true
+    },
+    {
+      "name": "Just Enough Items (JEI)",
+      "description": "ゲーム内でアイテムとレシピを確認できる。",
+      "link": "https://www.curseforge.com/minecraft/mc-mods/jei/files/3043174",
+      "serverOnly": false,
+      "clientOnly": true
+    },
+    {
+      "name": "Inventory Tweaks",
+      "description": "持ち物やチェストなどを自動的に整理できる。",
+      "link": "https://www.curseforge.com/minecraft/mc-mods/inventory-tweaks/files/2482481",
+      "serverOnly": false,
+      "clientOnly": true
+    },
+    {
+      "name": "RosettaEnchantTable",
+      "description": "エンチャントテーブルの文字を解読し、付与される効果を表示する。",
+      "link": "https://www.curseforge.com/minecraft/mc-mods/break-all-of-the-same-block-and-more/files/2740440",
+      "serverOnly": false,
+      "clientOnly": false
+    },
+    {
+      "name": "PickupWidely",
+      "description": "落ちているアイテムが回収しやすくなる。",
+      "link": "https://www.curseforge.com/minecraft/mc-mods/break-all-of-the-same-block-and-more/files/2740439",
+      "serverOnly": false,
+      "clientOnly": false
+    },
+    {
+      "name": "Multi Mine",
+      "description": "殴るのをやめるとリセットされてしまうブロックの粉砕状況を保持できるようになる。",
+      "link": "https://www.curseforge.com/minecraft/mc-mods/multi-mine/files/2790649",
+      "serverOnly": false,
+      "clientOnly": false
+    },
+    {
+      "name": "Dynamic Surroundings",
+      "description": "様々な環境音や自然な描写を追加する。",
+      "link": "https://www.curseforge.com/minecraft/mc-mods/dynamic-surroundings/files/2922489",
+      "serverOnly": false,
+      "clientOnly": true
+    },
+    {
+      "name": "MixinBootstrap",
+      "description": "Dynamic Surroundingsの前提MOD。",
+      "link": "https://www.curseforge.com/minecraft/mc-mods/mixinbootstrap/files/3076610",
+      "serverOnly": false,
+      "clientOnly": true
+    },
+    {
+      "name": "OreLib",
+      "description": "Dynamic Surroundingsの前提MOD。",
+      "link": "https://www.curseforge.com/minecraft/mc-mods/orelib/files/2820815",
+      "serverOnly": false,
+      "clientOnly": true
+    },
+    {
+      "name": "Mo' Bends",
+      "description": "プレイヤーやモンスターのアニメーションを追加する。",
+      "link": "https://www.curseforge.com/minecraft/mc-mods/mo-bends/files/2984182",
+      "serverOnly": false,
+      "clientOnly": true
+    },
+    {
+      "name": "Fence Jumper",
+      "description": "フェンスをジャンプで超えられるようになる。",
+      "link": "https://www.curseforge.com/minecraft/mc-mods/fence-jumper/files/2591087",
+      "serverOnly": false,
+      "clientOnly": true
+    },
+    {
+      "name": "Fakename",
+      "description": "サーバー上で自分の名前を変更できるようになる。",
+      "link": "https://www.curseforge.com/minecraft/mc-mods/fakename/files/2735802",
+      "serverOnly": false,
+      "clientOnly": false
+    },
+    {
+      "name": "Dirt Deco",
+      "description": "土や砂利などの形を変えることができる。",
+      "link": "https://www.curseforge.com/minecraft/mc-mods/dirt-deco/files/2666988",
+      "serverOnly": false,
+      "clientOnly": false
+    },
+    {
+      "name": "Ceiling Torch",
+      "description": "松明などを天井につけられるようになる。",
+      "link": "https://www.curseforge.com/minecraft/mc-mods/ceiling-torch/files/2850462",
+      "serverOnly": false,
+      "clientOnly": false
+    },
+    {
+      "name": "Dynamic Lights",
+      "description": "光源アイテムが手持ちやドロップさせた状態でも光源になる。",
+      "link": "https://www.curseforge.com/minecraft/mc-mods/dynamic-lights/files/2563244",
+      "serverOnly": false,
+      "clientOnly": false
+    },
+    {
+      "name": "CutAll",
+      "description": "木を一括破壊できる。",
+      "link": "https://www.curseforge.com/minecraft/mc-mods/break-all-of-the-same-block-and-more/files/2740435",
+      "serverOnly": false,
+      "clientOnly": false
+    },
+    {
+      "name": "Lapis Stays in the Enchanting Table",
+      "description": "エンチャントテーブルにラピスラズリを置いたままにできるようになる。",
+      "link": "https://www.curseforge.com/minecraft/mc-mods/lapis-stays-in-the-enchanting-table/files/2553810",
+      "serverOnly": false,
+      "clientOnly": false
+    },
+    {
+      "name": "Iron Backpacks",
+      "description": "内部にアイテムを保存できるバックパックを追加する。",
+      "link": "https://www.curseforge.com/minecraft/mc-mods/iron-backpacks/files/2564573",
+      "serverOnly": false,
+      "clientOnly": false
+    },
+    {
+      "name": "Iron Chests",
+      "description": "通常のチェストよりも容量の大きいチェストを追加する。",
+      "link": "https://www.curseforge.com/minecraft/mc-mods/iron-chests/files/2747935",
+      "serverOnly": false,
+      "clientOnly": false
+    },
+    {
+      "name": "More Furnaces",
+      "description": "精錬効率の良いかまどを追加する。",
+      "link": "https://www.curseforge.com/minecraft/mc-mods/more-furnaces/files/2627678",
+      "serverOnly": false,
+      "clientOnly": false
+    },
+    {
+      "name": "CXLibrary",
+      "description": "More Furnacesの前提MOD。",
+      "link": "https://www.curseforge.com/minecraft/mc-mods/cxlibrary/files/2463886",
+      "serverOnly": false,
+      "clientOnly": false
+    },
+    {
+      "name": "BiblioCraft",
+      "description": "本棚やテーブル、椅子、照明、家具などのインテリアを追加する。",
+      "link": "https://www.curseforge.com/minecraft/mc-mods/bibliocraft/files/2574880",
+      "serverOnly": false,
+      "clientOnly": false
+    },
+    {
+      "name": "Placeable Items",
+      "description": "一部アイテムを設置することができるようになる。",
+      "link": "https://www.curseforge.com/minecraft/mc-mods/placeable-items/files/2543705",
+      "serverOnly": false,
+      "clientOnly": false
+    },
+    {
+      "name": "XL Food Mod",
+      "description": "さまざまな植物と、それらを使った料理を追加する。",
+      "link": "https://www.curseforge.com/minecraft/mc-mods/xl-food-mod/files/2740774",
+      "serverOnly": false,
+      "clientOnly": false
+    },
+    {
+      "name": "Bird's Foods",
+      "description": "食料、料理をたくさん追加する。",
+      "link": "https://www.curseforge.com/minecraft/mc-mods/birds-foods/files/2517254",
+      "serverOnly": false,
+      "clientOnly": false
+    },
+    {
+      "name": "Traverse Reforged",
+      "description": "現実的な数十のバイオームと樹木を追加する。",
+      "link": "https://www.curseforge.com/minecraft/mc-mods/traverse-reforged/files/2613657",
+      "serverOnly": false,
+      "clientOnly": false
+    },
+    {
+      "name": "The Twilight Forest",
+      "description": "新Dimension「黄昏の森」を追加する。",
+      "link": "https://www.curseforge.com/minecraft/mc-mods/the-twilight-forest/files/3051450",
+      "serverOnly": false,
+      "clientOnly": false
+    },
+    {
+      "name": "ConnectedTexturesMod",
+      "description": "The Twilight Forestの前提MOD。",
+      "link": "https://www.curseforge.com/minecraft/mc-mods/ctm/files/2915363",
+      "serverOnly": false,
+      "clientOnly": false
+    },
+    {
+      "name": "Patchouli",
+      "description": "The Twilight Forestの前提MOD。",
+      "link": "https://www.curseforge.com/minecraft/mc-mods/patchouli/files/3162874",
+      "serverOnly": false,
+      "clientOnly": false
+    },
+    {
+      "name": "Silent's Gems",
+      "description": "たくさんの鉱石とツール、武器、防具などを追加するMOD。",
+      "link": "https://www.curseforge.com/minecraft/mc-mods/silents-gems/files/2804966",
+      "serverOnly": false,
+      "clientOnly": false
+    },
+    {
+      "name": "Silent Lib (silentlib)",
+      "description": "Silent's Gemsの前提MOD。",
+      "link": "https://www.curseforge.com/minecraft/mc-mods/silent-lib/files/2851111",
+      "serverOnly": false,
+      "clientOnly": false
+    },
+    {
+      "name": "Discord Integration Forge",
+      "description": "Discordとマイクラサーバーを連携するBot。",
+      "link": "https://www.curseforge.com/minecraft/mc-mods/dcintegration/files/2970247",
+      "serverOnly": true,
+      "clientOnly": false
+    },
+    {
+      "name": "Morpheus",
+      "description": "ログインしているユーザーの半分以上がベッドに入れば朝になる。",
+      "link": "https://www.curseforge.com/minecraft/mc-mods/morpheus/files/2664449",
+      "serverOnly": true,
+      "clientOnly": false
+    }
+  ]
+}
