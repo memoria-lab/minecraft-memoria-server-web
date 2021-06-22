@@ -1,4 +1,3 @@
-import Error from 'components/pages/Error'
 import Index from 'components/pages/Index'
 import PAGE_PATH from 'constants/pagePath'
 import React from 'react'
@@ -10,9 +9,6 @@ const App: React.FC = () => {
       <Switch>
         <Route path={PAGE_PATH.INDEX} exact>
           <Index />
-        </Route>
-        <Route path={PAGE_PATH.ERROR} exact>
-          <Error />
         </Route>
         <Route path="">404</Route>
       </Switch>
