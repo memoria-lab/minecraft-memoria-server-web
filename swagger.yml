@@ -1,0 +1,28 @@
+openapi: '3.0.0'
+info:
+  description: 'APIモック'
+  version: '1.0.0'
+  title: 'APIモック'
+paths:
+  /api/v1/status:
+    get:
+      tags:
+        - status
+      summary: '書き方サンプル1'
+      description: 'status'
+      responses:
+        200:
+          description: 成功
+          content:
+            application/json:
+              schema:
+                type: 'object'
+                properties:
+                  status:
+                    description: 'ステータス'
+                    type: 'string'
+                    example: 'OPEN'
+        400:
+          description: 入力チェックエラー
+        500:
+          description: サーバ処理エラー
