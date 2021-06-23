@@ -22,7 +22,7 @@ const GlobalStyleCss = createGlobalStyle`
     min-height: 100%;
     padding: 0;
     margin: 0;
-    font-family: "aniuk", "Helvetica Neue", "Helvetica", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Meiryo", "Arial", "Yu Gothic", sans-serif;
+    font-family: "aniuk", "heisei-maru-gothic-std", "Helvetica Neue", "Helvetica", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Meiryo", "Arial", "Yu Gothic", sans-serif;
     color: var(--color-text);
     background: var(--color-background);
     background-image: url('${BackgroundImage}');
