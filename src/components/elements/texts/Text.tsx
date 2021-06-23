@@ -17,6 +17,8 @@ export type TextProps = {
   background?: string
   bold?: boolean
   fontSize?: string
+  margin?: string
+  padding?: string
 }
 
 const StyledText = styled.span<{
@@ -24,8 +26,12 @@ const StyledText = styled.span<{
   background?: string
   bold?: boolean
   fontSize?: string
+  margin?: string
+  padding?: string
 }>`
   display: block;
+  ${(props): string => (props.margin ? `margin: ${props.margin};` : '')}
+  ${(props): string => (props.padding ? `padding: ${props.padding};` : '')}
   ${(props): string => (props.color ? `color: ${props.color};` : '')}
   ${(props): string =>
     props.background ? `background: ${props.background};` : ''}

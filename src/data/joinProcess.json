@@ -17,30 +17,41 @@
     {
       "description": "Minecraft Forge 1.12.2をインストールする。",
       "subdescriptions": [
-        "Minecraft Forge 1.12.2は下のMods欄にあるので、ダウンロードしてください。"
+        "Minecraft Forge 1.12.2は下のDownload Mods欄にあるので、各自ダウンロードをお願いします。"
       ]
     },
     {
-      "description": "Minecraft Forge 1.12.2を一度起動して終了する。"
-    },
-    {
-      "description": "Mods欄からMODをすべてダウンロードしてください。",
+      "description": "Minecraft Forge 1.12.2を一度起動する。",
       "subdescriptions": [
-        "再配布禁止のMODを含んでいるため、各自1つずつダウンロードをお願いします。",
-        "（クライアントのみ）と書かれているMODは、導入しなくてもサーバーに参加できます。",
-        "（サーバーのみ）と書かれているMODは、クライアントには導入する必要がありません。"
+        "modsフォルダが生成されていることを確認してください。"
       ]
     },
     {
-      "description": "Forgeを起動して生成されたmodsフォルダに、ダウンロードしたMOD（jarファイル）をすべて入れる。"
+      "description": "下のMod Pack欄からzipファイルをダウンロードする。",
+      "subdescriptions": [
+        "再配布可能なMODはまとめて提供しています。",
+        "ライセンスについてはMod Details欄をご覧ください。"
+      ]
     },
     {
-      "description": "Minecraft Forge 1.12.2を一度起動する。"
+      "description": "下のDownload Mods欄からMODをすべてダウンロードする。",
+      "subdescriptions": [
+        "こちらは再配布禁止なMODのため、各自1つずつダウンロードをお願いします。",
+        "（クライアントのみ）と書かれているMODは、導入しなくてもサーバーに参加できます。"
+      ]
+    },
+    {
+      "description": "手順6と7でダウンロードしたMOD（jarファイル）を、Forgeを起動して生成されたmodsフォルダにすべて入れる。"
+    },
+    {
+      "description": "Minecraft Forge 1.12.2を起動する"
     },
     {
       "description": "マルチプレイから「minecraft.mmra.me」へ接続する。",
       "subdescriptions": [
-        "もし接続できない場合は、めもりあまでご連絡ください。"
+        "もし接続できない場合やよく分からない場合は、めもりあまでご連絡ください。",
+        "タイミングによってはサーバーが停止していることもあります。",
+        "Discordのminecraftチャンネルでご確認ください。"
       ]
     },
     {
