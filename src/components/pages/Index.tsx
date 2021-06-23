@@ -6,6 +6,7 @@ import TwitterIcon from 'components/elements/icons/TwitterIcon'
 import ExternalLink from 'components/elements/texts/ExternalLink'
 import Text from 'components/elements/texts/Text'
 import MainTemplate from 'components/templates/MainTemplate'
+import joinProcess from 'data/joinProcess.json'
 import modInfo from 'data/modInfo.json'
 import MemoriaIcon from 'images/memoria.png'
 import React from 'react'
@@ -42,6 +43,14 @@ const Page: React.FC = () => {
                     'ホワイトリスト制のため、参加したい場合は めもりあ までご連絡ください。'
                   }
                 </Text>
+                <Text fontSize="14px">
+                  {
+                    'MODを導入しているサーバーのため、クライアント側もMODの導入が必要です。下の方の参加手順をご覧ください。'
+                  }
+                </Text>
+                <Text fontSize="14px">
+                  {'よく分からない方は めもりあ までご連絡ください。'}
+                </Text>
               </DescriptionArea>
             </ItemArea>
           }
@@ -69,22 +78,24 @@ const Page: React.FC = () => {
           }
         />
         <MainTemplate
-          title="Mod pack"
-          icon={<ModIcon />}
-          color="var(--color-4)"
+          title="Join"
+          icon={<OwnerIcon />}
+          color="var(--color-1)"
           content={
             <ItemArea>
-              <ExternalLink
-                link="https://1drv.ms/u/s!Av1EU_orzq3uqpNqzFSe7FV4Lj2ZJw?e=yRX7qC"
-                color="var(--color-4)"
-              >
-                <Text fontSize="22px">MODをまとめてダウンロード</Text>
-              </ExternalLink>
-              <DescriptionArea>
-                <Text fontSize="14px">
-                  {'必要なクライアントMODをまとめたものです。'}
-                </Text>
-              </DescriptionArea>
+              <Text fontSize="22px">マイクラめもりあ鯖に参加する手順</Text>
+              {joinProcess.processes.map((process, index) => (
+                <JoinDescriptionArea key={process.description}>
+                  <Text fontSize="16px">
+                    {index + 1}. {process.description}
+                  </Text>
+                  {process.subdescriptions?.map((subdescription) => (
+                    <Text fontSize="14px" bold key={subdescription}>
+                      {subdescription}
+                    </Text>
+                  ))}
+                </JoinDescriptionArea>
+              ))}
             </ItemArea>
           }
         />
@@ -99,7 +110,7 @@ const Page: React.FC = () => {
                   <ExternalLink link={mod.link} color="var(--color-4)">
                     <Text fontSize="22px">{mod.name}</Text>
                   </ExternalLink>
-                  <DescriptionArea>
+                  <ModDescriptionArea>
                     {mod.serverOnly && (
                       <Text fontSize="10px">（サーバーのみ）</Text>
                     )}
@@ -107,7 +118,7 @@ const Page: React.FC = () => {
                       <Text fontSize="10px">（クライアントのみ）</Text>
                     )}
                     <Text fontSize="14px">{mod.description}</Text>
-                  </DescriptionArea>
+                  </ModDescriptionArea>
                 </ModArea>
               ))}
             </ItemArea>
@@ -151,10 +162,32 @@ const Avatar = styled.img`
 `
 
 const DescriptionArea = styled.div`
-  display: flex;
-  align-items: center;
   margin-top: 24px;
   margin-left: 16px;
+
+  & * + * {
+    margin-top: 16px;
+  }
+`
+
+const ModDescriptionArea = styled(DescriptionArea)`
+  display: flex;
+  align-items: center;
+
+  & * + * {
+    margin-top: 0;
+  }
+`
+
+const JoinDescriptionArea = styled(DescriptionArea)`
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 32px;
+
+  & * + * {
+    margin-top: 16px;
+    margin-left: 24px;
+  }
 `
 
 const ModArea = styled.div`

@@ -5,287 +5,842 @@
       "description": "前提MOD。",
       "link": "https://files.minecraftforge.net/net/minecraftforge/forge/index_1.12.2.html",
       "serverOnly": false,
-      "clientOnly": false
+      "clientOnly": false,
+      "Redistribute": false,
+      "lisence": {
+        "authors": [
+          {
+            "name": "",
+            "link": ""
+          }
+        ],
+        "name": "",
+        "link": ""
+      }
     },
     {
       "name": "OptiFine",
       "description": "描画設定拡張・軽量化MOD。",
       "link": "https://optifine.net/adloadx?f=OptiFine_1.12.2_HD_U_G5.jar",
       "serverOnly": false,
-      "clientOnly": true
+      "clientOnly": true,
+      "Redistribute": false,
+      "lisence": {
+        "authors": [
+          {
+            "name": "",
+            "link": ""
+          }
+        ],
+        "name": "",
+        "link": ""
+      }
     },
     {
       "name": "BetterFps",
       "description": "Minecraft内部のアルゴリズムを変更して、FPSを向上させる。",
       "link": "https://www.curseforge.com/minecraft/mc-mods/betterfps/files/2483393",
       "serverOnly": false,
-      "clientOnly": false
+      "clientOnly": false,
+      "Redistribute": true,
+      "lisence": {
+        "authors": [
+          {
+            "name": "Guichaguri",
+            "link": "https://www.curseforge.com/members/guichaguri"
+          }
+        ],
+        "name": "GNU Lesser General Public License",
+        "link": "https://www.curseforge.com/project/229876/license"
+      }
     },
     {
       "name": "FastFurnace",
       "description": "かまどのパフォーマンスを向上させる。",
       "link": "https://www.curseforge.com/minecraft/mc-mods/fastfurnace/files/2706111",
       "serverOnly": false,
-      "clientOnly": false
+      "clientOnly": false,
+      "Redistribute": true,
+      "lisence": {
+        "authors": [
+          {
+            "name": "Shadows_of_Fire",
+            "link": "https://www.curseforge.com/members/shadows_of_fire"
+          }
+        ],
+        "name": "MIT License",
+        "link": "https://www.curseforge.com/project/299540/license"
+      }
     },
     {
       "name": "FastWorkbench",
       "description": "作業台のパフォーマンスを向上させる。",
       "link": "https://www.curseforge.com/minecraft/mc-mods/fastworkbench/files/2838777",
       "serverOnly": false,
-      "clientOnly": false
+      "clientOnly": false,
+      "Redistribute": true,
+      "lisence": {
+        "authors": [
+          {
+            "name": "Shadows_of_Fire",
+            "link": "https://www.curseforge.com/members/shadows_of_fire"
+          }
+        ],
+        "name": "MIT License",
+        "link": "https://www.curseforge.com/project/288885/license"
+      }
     },
     {
       "name": "Placebo",
       "description": "FastWorkbenchの前提MOD。",
       "link": "https://www.curseforge.com/minecraft/mc-mods/placebo/files/2694382",
       "serverOnly": false,
-      "clientOnly": false
+      "clientOnly": false,
+      "Redistribute": true,
+      "lisence": {
+        "authors": [
+          {
+            "name": "Shadows_of_Fire",
+            "link": "https://www.curseforge.com/members/shadows_of_fire"
+          }
+        ],
+        "name": "MIT License",
+        "link": "https://www.curseforge.com/project/283644/license"
+      }
     },
     {
       "name": "FPS Reducer",
       "description": "無操作時や非アクティブ時にFPSを低下させて負荷を軽減する。",
       "link": "https://www.curseforge.com/minecraft/mc-mods/fps-reducer/files/3042760",
       "serverOnly": false,
-      "clientOnly": true
+      "clientOnly": true,
+      "Redistribute": false,
+      "lisence": {
+        "authors": [
+          {
+            "name": "bre2el",
+            "link": "https://www.curseforge.com/members/bre2el"
+          }
+        ],
+        "name": "Custom License",
+        "link": "https://www.curseforge.com/project/280294/license"
+      }
     },
     {
       "name": "Smooth Font",
       "description": "文字の視認性を向上させる。",
       "link": "https://www.curseforge.com/minecraft/mc-mods/smooth-font/files/2949817",
       "serverOnly": false,
-      "clientOnly": true
+      "clientOnly": true,
+      "Redistribute": false,
+      "lisence": {
+        "authors": [
+          {
+            "name": "bre2el",
+            "link": "https://www.curseforge.com/members/bre2el"
+          }
+        ],
+        "name": "Custom License",
+        "link": "https://www.curseforge.com/project/285742/license"
+      }
     },
     {
       "name": "VoxelMap",
       "description": "地形表示や空洞確認などのできるマップ。",
       "link": "https://www.curseforge.com/minecraft/mc-mods/voxelmap/files/3029445",
       "serverOnly": false,
-      "clientOnly": true
+      "clientOnly": true,
+      "Redistribute": false,
+      "lisence": {
+        "authors": [
+          {
+            "name": "MamiyaOtaru",
+            "link": "https://www.curseforge.com/members/mamiyaotaru"
+          }
+        ],
+        "name": "Custom License",
+        "link": "https://www.curseforge.com/project/225179/license"
+      }
     },
     {
       "name": "Just Enough Items (JEI)",
-      "description": "ゲーム内でアイテムとレシピを確認できる。",
+      "description": "ゲーム内でアイテムやレシピを確認できる。",
       "link": "https://www.curseforge.com/minecraft/mc-mods/jei/files/3043174",
       "serverOnly": false,
-      "clientOnly": true
+      "clientOnly": true,
+      "Redistribute": true,
+      "lisence": {
+        "authors": [
+          {
+            "name": "mezz",
+            "link": "https://www.curseforge.com/members/mezz"
+          },
+          {
+            "name": "CFGrafanaStats",
+            "link": "https://www.curseforge.com/members/cfgrafanastats"
+          }
+        ],
+        "name": "MIT License",
+        "link": "https://www.curseforge.com/project/238222/license"
+      }
     },
     {
       "name": "Inventory Tweaks",
       "description": "持ち物やチェストなどを自動的に整理できる。",
       "link": "https://www.curseforge.com/minecraft/mc-mods/inventory-tweaks/files/2482481",
       "serverOnly": false,
-      "clientOnly": true
+      "clientOnly": true,
+      "Redistribute": true,
+      "lisence": {
+        "authors": [
+          {
+            "name": "JimeoWan",
+            "link": "https://www.curseforge.com/members/jimeowan"
+          },
+          {
+            "name": "Forge_User_09631947",
+            "link": "https://www.curseforge.com/members/Forge_User_09631947"
+          }
+        ],
+        "name": "MIT License",
+        "link": "https://www.curseforge.com/project/223094/license"
+      }
     },
     {
       "name": "RosettaEnchantTable",
       "description": "エンチャントテーブルの文字を解読し、付与される効果を表示する。",
       "link": "https://www.curseforge.com/minecraft/mc-mods/break-all-of-the-same-block-and-more/files/2740440",
       "serverOnly": false,
-      "clientOnly": false
+      "clientOnly": false,
+      "Redistribute": false,
+      "lisence": {
+        "authors": [
+          {
+            "name": "scalar001",
+            "link": "https://www.curseforge.com/members/scalar001"
+          }
+        ],
+        "name": "Custom License",
+        "link": "https://www.curseforge.com/project/318494/license"
+      }
     },
     {
       "name": "PickupWidely",
       "description": "落ちているアイテムが回収しやすくなる。",
       "link": "https://www.curseforge.com/minecraft/mc-mods/break-all-of-the-same-block-and-more/files/2740439",
       "serverOnly": false,
-      "clientOnly": false
+      "clientOnly": false,
+      "Redistribute": false,
+      "lisence": {
+        "authors": [
+          {
+            "name": "scalar001",
+            "link": "https://www.curseforge.com/members/scalar001"
+          }
+        ],
+        "name": "Custom License",
+        "link": "https://www.curseforge.com/project/318494/license"
+      }
     },
     {
       "name": "Multi Mine",
       "description": "殴るのをやめるとリセットされてしまうブロックの粉砕状況を保持できるようになる。",
       "link": "https://www.curseforge.com/minecraft/mc-mods/multi-mine/files/2790649",
       "serverOnly": false,
-      "clientOnly": false
+      "clientOnly": false,
+      "Redistribute": false,
+      "lisence": {
+        "authors": [
+          {
+            "name": "atomicstrykergrumpy",
+            "link": "https://www.curseforge.com/members/atomicstrykergrumpy"
+          }
+        ],
+        "name": "Custom License",
+        "link": "https://www.curseforge.com/project/227887/license"
+      }
     },
     {
       "name": "Dynamic Surroundings",
       "description": "様々な環境音や自然な描写を追加する。",
       "link": "https://www.curseforge.com/minecraft/mc-mods/dynamic-surroundings/files/2922489",
       "serverOnly": false,
-      "clientOnly": true
+      "clientOnly": true,
+      "Redistribute": false,
+      "lisence": {
+        "authors": [
+          {
+            "name": "OreCruncher",
+            "link": "https://www.curseforge.com/members/orecruncher"
+          }
+        ],
+        "name": "GNU General Public License",
+        "link": "https://www.curseforge.com/project/238891/license"
+      }
     },
     {
       "name": "MixinBootstrap",
       "description": "Dynamic Surroundingsの前提MOD。",
       "link": "https://www.curseforge.com/minecraft/mc-mods/mixinbootstrap/files/3076610",
       "serverOnly": false,
-      "clientOnly": true
+      "clientOnly": true,
+      "Redistribute": true,
+      "lisence": {
+        "authors": [
+          {
+            "name": "LX_Gaming",
+            "link": "https://www.curseforge.com/members/lx_gaming"
+          }
+        ],
+        "name": "Apache License Version 2.0",
+        "link": "https://www.curseforge.com/project/357178/license"
+      }
     },
     {
       "name": "OreLib",
       "description": "Dynamic Surroundingsの前提MOD。",
       "link": "https://www.curseforge.com/minecraft/mc-mods/orelib/files/2820815",
       "serverOnly": false,
-      "clientOnly": true
+      "clientOnly": true,
+      "Redistribute": true,
+      "lisence": {
+        "authors": [
+          {
+            "name": "OreCruncher",
+            "link": "https://www.curseforge.com/members/orecruncher"
+          }
+        ],
+        "name": "MIT License",
+        "link": "https://www.curseforge.com/project/307806/license"
+      }
     },
     {
       "name": "Mo' Bends",
       "description": "プレイヤーやモンスターのアニメーションを追加する。",
       "link": "https://www.curseforge.com/minecraft/mc-mods/mo-bends/files/2984182",
       "serverOnly": false,
-      "clientOnly": true
+      "clientOnly": true,
+      "Redistribute": true,
+      "lisence": {
+        "authors": [
+          {
+            "name": "iwoplaza",
+            "link": "https://www.curseforge.com/members/iwoplaza"
+          }
+        ],
+        "name": "MIT License",
+        "link": "https://www.curseforge.com/project/231347/license"
+      }
     },
     {
       "name": "Fence Jumper",
       "description": "フェンスをジャンプで超えられるようになる。",
       "link": "https://www.curseforge.com/minecraft/mc-mods/fence-jumper/files/2591087",
       "serverOnly": false,
-      "clientOnly": true
+      "clientOnly": true,
+      "Redistribute": true,
+      "lisence": {
+        "authors": [
+          {
+            "name": "TheRealp455w0rd",
+            "link": "https://www.curseforge.com/members/therealp455w0rd"
+          }
+        ],
+        "name": "MIT License",
+        "link": "https://www.curseforge.com/project/254652/license"
+      }
     },
     {
       "name": "Fakename",
       "description": "サーバー上で自分の名前を変更できるようになる。",
       "link": "https://www.curseforge.com/minecraft/mc-mods/fakename/files/2735802",
       "serverOnly": false,
-      "clientOnly": false
+      "clientOnly": false,
+      "Redistribute": true,
+      "lisence": {
+        "authors": [
+          {
+            "name": "Tschipp",
+            "link": "https://www.curseforge.com/members/tschipp"
+          }
+        ],
+        "name": "Custom License",
+        "link": "https://www.curseforge.com/project/256838/license"
+      }
     },
     {
       "name": "Dirt Deco",
       "description": "土や砂利などの形を変えることができる。",
       "link": "https://www.curseforge.com/minecraft/mc-mods/dirt-deco/files/2666988",
       "serverOnly": false,
-      "clientOnly": false
+      "clientOnly": false,
+      "Redistribute": true,
+      "lisence": {
+        "authors": [
+          {
+            "name": "Kreezxil",
+            "link": "https://www.curseforge.com/members/kreezxil"
+          },
+          {
+            "name": "Th4tM0nk3y",
+            "link": "https://www.curseforge.com/members/th4tm0nk3y"
+          },
+          {
+            "name": "rammer_darksun",
+            "link": "https://www.curseforge.com/members/rammer_darksun"
+          }
+        ],
+        "name": "MIT License",
+        "link": "https://www.curseforge.com/project/296839/license"
+      }
     },
     {
       "name": "Ceiling Torch",
       "description": "松明などを天井につけられるようになる。",
       "link": "https://www.curseforge.com/minecraft/mc-mods/ceiling-torch/files/2850462",
       "serverOnly": false,
-      "clientOnly": false
+      "clientOnly": false,
+      "Redistribute": true,
+      "lisence": {
+        "authors": [
+          {
+            "name": "bl4ckscor3",
+            "link": "https://www.curseforge.com/members/bl4ckscor3"
+          },
+          {
+            "name": "realmayus",
+            "link": "https://www.curseforge.com/members/realmayus"
+          }
+        ],
+        "name": "GNU General Public License",
+        "link": "https://www.curseforge.com/project/326599/license"
+      }
     },
     {
       "name": "Dynamic Lights",
       "description": "光源アイテムが手持ちやドロップさせた状態でも光源になる。",
       "link": "https://www.curseforge.com/minecraft/mc-mods/dynamic-lights/files/2563244",
       "serverOnly": false,
-      "clientOnly": false
+      "clientOnly": false,
+      "Redistribute": true,
+      "lisence": {
+        "authors": [
+          {
+            "name": "atomicstrykergrumpy",
+            "link": "https://www.curseforge.com/members/atomicstrykergrumpy"
+          },
+          {
+            "name": "LakMoore",
+            "link": "https://www.curseforge.com/members/lakmoore"
+          }
+        ],
+        "name": "Custom License",
+        "link": "https://www.curseforge.com/project/227874/license"
+      }
     },
     {
       "name": "CutAll",
       "description": "木を一括破壊できる。",
       "link": "https://www.curseforge.com/minecraft/mc-mods/break-all-of-the-same-block-and-more/files/2740435",
       "serverOnly": false,
-      "clientOnly": false
+      "clientOnly": false,
+      "Redistribute": false,
+      "lisence": {
+        "authors": [
+          {
+            "name": "scalar001",
+            "link": "https://www.curseforge.com/members/scalar001"
+          }
+        ],
+        "name": "Custom License",
+        "link": "https://www.curseforge.com/project/318494/license"
+      }
     },
     {
       "name": "Lapis Stays in the Enchanting Table",
       "description": "エンチャントテーブルにラピスラズリを置いたままにできるようになる。",
       "link": "https://www.curseforge.com/minecraft/mc-mods/lapis-stays-in-the-enchanting-table/files/2553810",
       "serverOnly": false,
-      "clientOnly": false
+      "clientOnly": false,
+      "Redistribute": true,
+      "lisence": {
+        "authors": [
+          {
+            "name": "Forge_User_41096743",
+            "link": "https://www.curseforge.com/members/Forge_User_41096743"
+          }
+        ],
+        "name": "MIT License",
+        "link": "https://www.curseforge.com/project/263905/license"
+      }
     },
     {
       "name": "Iron Backpacks",
       "description": "内部にアイテムを保存できるバックパックを追加する。",
       "link": "https://www.curseforge.com/minecraft/mc-mods/iron-backpacks/files/2564573",
       "serverOnly": false,
-      "clientOnly": false
+      "clientOnly": false,
+      "Redistribute": true,
+      "lisence": {
+        "authors": [
+          {
+            "name": "gr8pefish",
+            "link": "https://www.curseforge.com/members/gr8pefish"
+          },
+          {
+            "name": "BBoldt",
+            "link": "https://www.curseforge.com/members/bboldt"
+          },
+          {
+            "name": "TehNut",
+            "link": "https://www.curseforge.com/members/tehnut"
+          }
+        ],
+        "name": "GNU General Public License",
+        "link": "https://www.curseforge.com/project/227049/license"
+      }
     },
     {
       "name": "Iron Chests",
       "description": "通常のチェストよりも容量の大きいチェストを追加する。",
       "link": "https://www.curseforge.com/minecraft/mc-mods/iron-chests/files/2747935",
       "serverOnly": false,
-      "clientOnly": false
+      "clientOnly": false,
+      "Redistribute": true,
+      "lisence": {
+        "authors": [
+          {
+            "name": "ProgWML6",
+            "link": "https://www.curseforge.com/members/progwml6"
+          },
+          {
+            "name": "Alexbegt",
+            "link": "https://www.curseforge.com/members/alexbegt"
+          }
+        ],
+        "name": "GNU General Public License",
+        "link": "https://www.curseforge.com/project/228756/license"
+      }
     },
     {
       "name": "More Furnaces",
       "description": "精錬効率の良いかまどを追加する。",
       "link": "https://www.curseforge.com/minecraft/mc-mods/more-furnaces/files/2627678",
       "serverOnly": false,
-      "clientOnly": false
+      "clientOnly": false,
+      "Redistribute": true,
+      "lisence": {
+        "authors": [
+          {
+            "name": "cubex2",
+            "link": "https://www.curseforge.com/members/cubex2"
+          }
+        ],
+        "name": "GNU General Public License",
+        "link": "https://www.curseforge.com/project/78320/license"
+      }
     },
     {
       "name": "CXLibrary",
       "description": "More Furnacesの前提MOD。",
       "link": "https://www.curseforge.com/minecraft/mc-mods/cxlibrary/files/2463886",
       "serverOnly": false,
-      "clientOnly": false
+      "clientOnly": false,
+      "Redistribute": true,
+      "lisence": {
+        "authors": [
+          {
+            "name": "cubex2",
+            "link": "https://www.curseforge.com/members/cubex2"
+          }
+        ],
+        "name": "GNU General Public License",
+        "link": "https://www.curseforge.com/project/244023/license"
+      }
     },
     {
       "name": "BiblioCraft",
       "description": "本棚やテーブル、椅子、照明、家具などのインテリアを追加する。",
       "link": "https://www.curseforge.com/minecraft/mc-mods/bibliocraft/files/2574880",
       "serverOnly": false,
-      "clientOnly": false
+      "clientOnly": false,
+      "Redistribute": false,
+      "lisence": {
+        "authors": [
+          {
+            "name": "Nuchaz",
+            "link": "https://www.curseforge.com/members/nuchaz"
+          }
+        ],
+        "name": "Custom License",
+        "link": "https://www.curseforge.com/project/228027/license"
+      }
     },
     {
       "name": "Placeable Items",
       "description": "一部アイテムを設置することができるようになる。",
       "link": "https://www.curseforge.com/minecraft/mc-mods/placeable-items/files/2543705",
       "serverOnly": false,
-      "clientOnly": false
+      "clientOnly": false,
+      "Redistribute": false,
+      "lisence": {
+        "authors": [
+          {
+            "name": "Ferdz_",
+            "link": "https://www.curseforge.com/members/ferdz_"
+          },
+          {
+            "name": "MasterianoX",
+            "link": "https://www.curseforge.com/members/masterianox"
+          }
+        ],
+        "name": "Custom License",
+        "link": "https://www.curseforge.com/project/227951/license"
+      }
     },
     {
       "name": "XL Food Mod",
       "description": "さまざまな植物と、それらを使った料理を追加する。",
       "link": "https://www.curseforge.com/minecraft/mc-mods/xl-food-mod/files/2740774",
       "serverOnly": false,
-      "clientOnly": false
+      "clientOnly": false,
+      "Redistribute": true,
+      "lisence": {
+        "authors": [
+          {
+            "name": "mariot7",
+            "link": "https://www.curseforge.com/members/mariot7"
+          }
+        ],
+        "name": "GNU General Public License",
+        "link": "https://www.curseforge.com/project/247217/license"
+      }
     },
     {
       "name": "Bird's Foods",
       "description": "食料、料理をたくさん追加する。",
       "link": "https://www.curseforge.com/minecraft/mc-mods/birds-foods/files/2517254",
       "serverOnly": false,
-      "clientOnly": false
+      "clientOnly": false,
+      "Redistribute": true,
+      "lisence": {
+        "authors": [
+          {
+            "name": "no_space",
+            "link": "https://www.curseforge.com/members/no_space"
+          }
+        ],
+        "name": "Custom License",
+        "link": "https://www.curseforge.com/project/255255/license"
+      }
     },
     {
       "name": "Traverse Reforged",
-      "description": "現実的な数十のバイオームと樹木を追加する。",
+      "description": "現実的な数十のバイオームや樹木を追加する。",
       "link": "https://www.curseforge.com/minecraft/mc-mods/traverse-reforged/files/2613657",
       "serverOnly": false,
-      "clientOnly": false
+      "clientOnly": false,
+      "Redistribute": true,
+      "lisence": {
+        "authors": [
+          {
+            "name": "Noobanidus",
+            "link": "https://www.curseforge.com/members/noobanidus"
+          },
+          {
+            "name": "NeusFear",
+            "link": "https://www.curseforge.com/members/neusfear"
+          },
+          {
+            "name": "EpicSquid315",
+            "link": "https://www.curseforge.com/members/epicsquid315"
+          },
+          {
+            "name": "HeckinChloe",
+            "link": "https://www.curseforge.com/members/heckinchloe"
+          },
+          {
+            "name": "ProspectorDev",
+            "link": "https://www.curseforge.com/members/prospectordev"
+          }
+        ],
+        "name": "GNU Lesser General Public License",
+        "link": "https://www.curseforge.com/project/267769/license"
+      }
     },
     {
       "name": "The Twilight Forest",
       "description": "新Dimension「黄昏の森」を追加する。",
       "link": "https://www.curseforge.com/minecraft/mc-mods/the-twilight-forest/files/3051450",
       "serverOnly": false,
-      "clientOnly": false
+      "clientOnly": false,
+      "Redistribute": true,
+      "lisence": {
+        "authors": [
+          {
+            "name": "Benimatic",
+            "link": "https://www.curseforge.com/members/benimatic"
+          },
+          {
+            "name": "Killer_Demon",
+            "link": "https://www.curseforge.com/members/killer_demon"
+          },
+          {
+            "name": "mcvinnyq",
+            "link": "https://www.curseforge.com/members/mcvinnyq"
+          },
+          {
+            "name": "Drullkus",
+            "link": "https://www.curseforge.com/members/drullkus"
+          },
+          {
+            "name": "Tamaized",
+            "link": "https://www.curseforge.com/members/tamaized"
+          },
+          {
+            "name": "AtomicBlom",
+            "link": "https://www.curseforge.com/members/atomicblom"
+          },
+          {
+            "name": "Squiggly_Androsa",
+            "link": "https://www.curseforge.com/members/squiggly_androsa"
+          },
+          {
+            "name": "GizmoTheMoonPig",
+            "link": "https://www.curseforge.com/members/gizmothemoonpig"
+          },
+          {
+            "name": "MrCompost",
+            "link": "https://www.curseforge.com/members/mrcompost"
+          },
+          {
+            "name": "williewillus",
+            "link": "https://www.curseforge.com/members/williewillus"
+          }
+        ],
+        "name": "GNU Lesser General Public License",
+        "link": "https://www.curseforge.com/project/227639/license"
+      }
     },
     {
       "name": "ConnectedTexturesMod",
       "description": "The Twilight Forestの前提MOD。",
       "link": "https://www.curseforge.com/minecraft/mc-mods/ctm/files/2915363",
       "serverOnly": false,
-      "clientOnly": false
+      "clientOnly": false,
+      "Redistribute": true,
+      "lisence": {
+        "authors": [
+          {
+            "name": "tterrag1098",
+            "link": "https://www.curseforge.com/members/tterrag1098"
+          },
+          {
+            "name": "Drullkus",
+            "link": "https://www.curseforge.com/members/drullkus"
+          },
+          {
+            "name": "minecreatr",
+            "link": "https://www.curseforge.com/members/minecreatr"
+          }
+        ],
+        "name": "GNU General Public License",
+        "link": "https://www.curseforge.com/project/267602/license"
+      }
     },
     {
       "name": "Patchouli",
       "description": "The Twilight Forestの前提MOD。",
       "link": "https://www.curseforge.com/minecraft/mc-mods/patchouli/files/3162874",
       "serverOnly": false,
-      "clientOnly": false
+      "clientOnly": false,
+      "Redistribute": true,
+      "lisence": {
+        "authors": [
+          {
+            "name": "Vazkii",
+            "link": "https://www.curseforge.com/members/vazkii"
+          },
+          {
+            "name": "williewillus",
+            "link": "https://www.curseforge.com/members/williewillus"
+          }
+        ],
+        "name": "Custom License",
+        "link": "https://www.curseforge.com/project/306770/license"
+      }
     },
     {
       "name": "Silent's Gems",
       "description": "たくさんの鉱石とツール、武器、防具などを追加するMOD。",
       "link": "https://www.curseforge.com/minecraft/mc-mods/silents-gems/files/2804966",
       "serverOnly": false,
-      "clientOnly": false
+      "clientOnly": false,
+      "Redistribute": true,
+      "lisence": {
+        "authors": [
+          {
+            "name": "SilentChaos512",
+            "link": "https://www.curseforge.com/members/silentchaos512"
+          }
+        ],
+        "name": "GNU Lesser General Public License",
+        "link": "https://www.curseforge.com/project/220311/license"
+      }
     },
     {
       "name": "Silent Lib (silentlib)",
       "description": "Silent's Gemsの前提MOD。",
       "link": "https://www.curseforge.com/minecraft/mc-mods/silent-lib/files/2851111",
       "serverOnly": false,
-      "clientOnly": false
+      "clientOnly": false,
+      "Redistribute": true,
+      "lisence": {
+        "authors": [
+          {
+            "name": "SilentChaos512",
+            "link": "https://www.curseforge.com/members/silentchaos512"
+          }
+        ],
+        "name": "GNU Lesser General Public License",
+        "link": "https://www.curseforge.com/project/220311/license"
+      }
     },
     {
       "name": "Discord Integration Forge",
       "description": "Discordとマイクラサーバーを連携するBot。",
       "link": "https://www.curseforge.com/minecraft/mc-mods/dcintegration/files/2970247",
       "serverOnly": true,
-      "clientOnly": false
+      "clientOnly": false,
+      "Redistribute": true,
+      "lisence": {
+        "authors": [
+          {
+            "name": "ErdbeerbaerLP",
+            "link": "https://www.curseforge.com/members/erdbeerbaerlp"
+          }
+        ],
+        "name": "MIT License",
+        "link": "https://www.curseforge.com/project/324952/license"
+      }
     },
     {
       "name": "Morpheus",
       "description": "ログインしているユーザーの半分以上がベッドに入れば朝になる。",
       "link": "https://www.curseforge.com/minecraft/mc-mods/morpheus/files/2664449",
       "serverOnly": true,
-      "clientOnly": false
+      "clientOnly": false,
+      "Redistribute": false,
+      "lisence": {
+        "authors": [
+          {
+            "name": "Quetzi",
+            "link": "https://www.curseforge.com/members/quetzi"
+          }
+        ],
+        "name": "Custom License",
+        "link": "https://www.curseforge.com/project/69118/license"
+      }
     }
   ]
 }

@@ -16,7 +16,7 @@ const Element: React.FC<IconProps> = (props) => {
             d="M21.19,16.789v6.676a2.225,2.225,0,0,1-2.225,2.225H6.725A2.225,2.225,0,0,1,4.5,23.465V11.225A2.225,2.225,0,0,1,6.725,9H13.4"
             transform="translate(0 -1.19)"
             fill="none"
-            stroke="#341131"
+            stroke={props.color ? props.color : 'var(--color-text)'}
             strokeLinecap="round"
             strokeLinejoin="round"
             strokeWidth="2"
@@ -25,7 +25,7 @@ const Element: React.FC<IconProps> = (props) => {
             d="M22.5,4.5h6.676v6.676"
             transform="translate(-4.676)"
             fill="none"
-            stroke="#341131"
+            stroke={props.color ? props.color : 'var(--color-text)'}
             strokeLinecap="round"
             strokeLinejoin="round"
             strokeWidth="2"
@@ -34,7 +34,7 @@ const Element: React.FC<IconProps> = (props) => {
             d="M15,16.739,27.239,4.5"
             transform="translate(-2.739)"
             fill="none"
-            stroke="#341131"
+            stroke={props.color ? props.color : 'var(--color-text)'}
             strokeLinecap="round"
             strokeLinejoin="round"
             strokeWidth="2"
