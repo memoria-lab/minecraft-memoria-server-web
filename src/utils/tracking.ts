@@ -8,9 +8,7 @@ const tracking = (): void => {
   const location = useLocation()
 
   const send = (pathname: string): void => {
-    console.log('ga tracking', location.pathname)
     if (GA_ID) {
-      console.log('send')
       ReactGA.pageview(pathname)
     }
   }
