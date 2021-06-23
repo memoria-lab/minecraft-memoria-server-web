@@ -12,7 +12,7 @@
       "subdescriptions": ["Java版以外は非対応です。"]
     },
     {
-      "description": "Minecraft 1.12.2を一度起動して終了する。"
+      "description": "Minecraft 1.12.2を一度起動し、終了する。"
     },
     {
       "description": "Minecraft Forge 1.12.2をインストールする。",
@@ -21,7 +21,7 @@
       ]
     },
     {
-      "description": "Minecraft Forge 1.12.2を一度起動する。",
+      "description": "Minecraft Forge 1.12.2を一度起動し、終了する。",
       "subdescriptions": [
         "modsフォルダが生成されていることを確認してください。"
       ]
@@ -44,7 +44,7 @@
       "description": "手順6と7でダウンロードしたMOD（jarファイル）を、Forgeを起動して生成されたmodsフォルダにすべて入れる。"
     },
     {
-      "description": "Minecraft Forge 1.12.2を起動する"
+      "description": "Minecraft Forge 1.12.2を起動する。"
     },
     {
       "description": "マルチプレイから「minecraft.mmra.me」へ接続する。",
