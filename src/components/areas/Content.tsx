@@ -13,7 +13,7 @@ export type ContentProps = {
 const Content = styled.div<{
   color?: string
 }>`
-  ${(props): string => (props.color ? `props.color: ${props.color};` : '')}
+  ${(props): string => (props.color ? `color: ${props.color};` : '')}
 `
 
 export default Area
