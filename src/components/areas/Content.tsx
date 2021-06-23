@@ -7,14 +7,13 @@ const Area: React.FC<ContentProps> = (props) => {
 
 export type ContentProps = {
   content: React.ReactNode
-  color: string
+  color?: string
 }
 
 const Content = styled.div<{
-  color: string
+  color?: string
 }>`
-  color: ${(props): string =>
-    props.color ? props.color : 'var(--color-text)'};
+  ${(props): string => (props.color ? `props.color: ${props.color};` : '')}
 `
 
 export default Area

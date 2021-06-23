@@ -1,0 +1,54 @@
+{
+  "processes": [
+    {
+      "description": "参加するときは めもりあ までご連絡ください。",
+      "subdescriptions": [
+        "マイクラめもりあ鯖はホワイトリスト制サーバーのため、許可された方しか接続できません。",
+        "あわせて、Discordめもりあ鯖への参加もお願いします。"
+      ]
+    },
+    {
+      "description": "Minecraft Java版をインストールする。",
+      "subdescriptions": ["Java版以外は非対応です。"]
+    },
+    {
+      "description": "Minecraft 1.12.2を一度起動して終了する。"
+    },
+    {
+      "description": "Minecraft Forge 1.12.2をインストールする。",
+      "subdescriptions": [
+        "Minecraft Forge 1.12.2は下のMods欄にあるので、ダウンロードしてください。"
+      ]
+    },
+    {
+      "description": "Minecraft Forge 1.12.2を一度起動して終了する。"
+    },
+    {
+      "description": "Mods欄からMODをすべてダウンロードしてください。",
+      "subdescriptions": [
+        "再配布禁止のMODを含んでいるため、各自1つずつダウンロードをお願いします。",
+        "（クライアントのみ）と書かれているMODは、導入しなくてもサーバーに参加できます。",
+        "（サーバーのみ）と書かれているMODは、クライアントには導入する必要がありません。"
+      ]
+    },
+    {
+      "description": "Forgeを起動して生成されたmodsフォルダに、ダウンロードしたMOD（jarファイル）をすべて入れる。"
+    },
+    {
+      "description": "Minecraft Forge 1.12.2を一度起動する。"
+    },
+    {
+      "description": "マルチプレイから「minecraft.mmra.me」へ接続する。",
+      "subdescriptions": [
+        "もし接続できない場合は、めもりあまでご連絡ください。"
+      ]
+    },
+    {
+      "description": "Discordのminecraftチャンネルは、Minecraftサーバーと連携しています。",
+      "subdescriptions": [
+        "Minecraft内とDiscord内のチャットが連携されています。",
+        "Minecraft Botがログイン中の人数やプレイヤーの活動状況などを通知します。"
+      ]
+    }
+  ]
+}

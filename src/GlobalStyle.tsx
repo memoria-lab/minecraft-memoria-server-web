@@ -9,7 +9,7 @@ const GlobalStyle: React.FC = () => {
 const GlobalStyleCss = createGlobalStyle`
   :root{
     --color-text: #222222;
-    --color-background: #e7ebfc;
+    --color-background: #e7ebfcd7;
     --color-1: #243411;
     --color-2:#341111;
     --color-3:#111c34;
@@ -25,7 +25,6 @@ const GlobalStyleCss = createGlobalStyle`
     font-family: "aniuk", "Helvetica Neue", "Helvetica", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Meiryo", "Arial", "Yu Gothic", sans-serif;
     color: var(--color-text);
     background: var(--color-background);
-    background-color: rgba(255, 255, 255, 0.84);
     background-image: url('${BackgroundImage}');
     background-repeat: no-repeat;
     background-attachment: fixed;
