@@ -109,7 +109,7 @@ const Page: React.FC = () => {
           content={
             <ItemArea>
               <ExternalLink
-                link="https://1drv.ms/u/s!Av1EU_orzq3uqpNsOruI9sKNHPc3Kg?e=F43Uhs"
+                link="https://www.dropbox.com/s/vx8v5rrqhlxpcba/modpack.zip?dl=1"
                 color="var(--color-4)"
               >
                 <Text fontSize="22px">Mod Packをダウンロード</Text>
