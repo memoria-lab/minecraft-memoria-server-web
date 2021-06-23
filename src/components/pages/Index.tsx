@@ -36,7 +36,10 @@ const Page: React.FC = () => {
           color="var(--color-2)"
           content={
             <ItemArea>
-              <Text fontSize="22px">サーバーアドレス: minecraft.mmra.me</Text>
+              <Text fontSize="22px">サーバーアドレス : minecraft.mmra.me</Text>
+              <Text fontSize="16px" margin="16px 0 0">
+                バージョン : forge 1.12.2
+              </Text>
               <DescriptionArea>
                 <Text fontSize="14px">
                   {
@@ -100,16 +103,95 @@ const Page: React.FC = () => {
           }
         />
         <MainTemplate
-          title="Mods"
+          title="Mod Pack"
           icon={<ModIcon />}
           color="var(--color-4)"
           content={
             <ItemArea>
+              <ExternalLink
+                link="https://1drv.ms/u/s!Av1EU_orzq3uqpNsOruI9sKNHPc3Kg?e=F43Uhs"
+                color="var(--color-4)"
+              >
+                <Text fontSize="22px">Mod Packをダウンロード</Text>
+              </ExternalLink>
+              <DescriptionArea>
+                <Text fontSize="14px">
+                  {
+                    '再配布可能なMODはzipファイルとしてこちらでまとめて提供しています。'
+                  }
+                </Text>
+                <Text fontSize="14px">
+                  {'ライセンスについてはMod Details欄をご覧ください。'}
+                </Text>
+              </DescriptionArea>
+            </ItemArea>
+          }
+        />
+        <MainTemplate
+          title="Download Mods"
+          icon={<ModIcon />}
+          color="var(--color-4)"
+          content={
+            <ItemArea>
+              <Text fontSize="16px">
+                以下のMODは再配布が禁止されているMODのため、各自でダウンロードをお願いします。
+              </Text>
+              {modInfo.mods
+                .filter((mod) => !mod.redistribute && !mod.serverOnly)
+                .map((mod) => (
+                  <ModArea key={mod.name}>
+                    <ExternalLink link={mod.link} color="var(--color-4)">
+                      <Text fontSize="22px">{mod.name}</Text>
+                    </ExternalLink>
+                    <ModDescriptionArea>
+                      {mod.serverOnly && (
+                        <Text fontSize="10px">（サーバーのみ）</Text>
+                      )}
+                      {mod.clientOnly && (
+                        <Text fontSize="10px">（クライアントのみ）</Text>
+                      )}
+                      <Text fontSize="14px">{mod.description}</Text>
+                    </ModDescriptionArea>
+                  </ModArea>
+                ))}
+            </ItemArea>
+          }
+        />
+        <MainTemplate
+          title="Mod Details"
+          icon={<ModIcon />}
+          color="var(--color-4)"
+          content={
+            <ItemArea>
+              <Text fontSize="16px">
+                サーバーに導入されているMODの一覧です。
+              </Text>
               {modInfo.mods.map((mod) => (
                 <ModArea key={mod.name}>
                   <ExternalLink link={mod.link} color="var(--color-4)">
                     <Text fontSize="22px">{mod.name}</Text>
                   </ExternalLink>
+                  {(mod.license.name || !!mod.license.authors.length) && (
+                    <ModDescriptionArea>
+                      {mod.license.name && (
+                        <ExternalLink
+                          link={mod.license.link}
+                          color="var(--color-4)"
+                        >
+                          <Text fontSize="14px">{mod.license.name}</Text>
+                        </ExternalLink>
+                      )}
+                      {mod.license.authors.map((author) => (
+                        <ExternalLink
+                          link={author.link}
+                          color="var(--color-4)"
+                          key={author.name}
+                        >
+                          <Text fontSize="12px">by {author.name}</Text>
+                        </ExternalLink>
+                      ))}
+                    </ModDescriptionArea>
+                  )}
                   <ModDescriptionArea>
                     {mod.serverOnly && (
                       <Text fontSize="10px">（サーバーのみ）</Text>
@@ -172,6 +254,7 @@ const DescriptionArea = styled.div`
 
 const ModDescriptionArea = styled(DescriptionArea)`
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
 
   & * + * {

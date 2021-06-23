@@ -6,12 +6,12 @@
       "link": "https://files.minecraftforge.net/net/minecraftforge/forge/index_1.12.2.html",
       "serverOnly": false,
       "clientOnly": false,
-      "Redistribute": false,
-      "lisence": {
+      "redistribute": false,
+      "license": {
         "authors": [
           {
-            "name": "",
-            "link": ""
+            "name": "ForgeDevTeam",
+            "link": "https://forums.minecraftforge.net/"
           }
         ],
         "name": "",
@@ -24,12 +24,12 @@
       "link": "https://optifine.net/adloadx?f=OptiFine_1.12.2_HD_U_G5.jar",
       "serverOnly": false,
       "clientOnly": true,
-      "Redistribute": false,
-      "lisence": {
+      "redistribute": false,
+      "license": {
         "authors": [
           {
-            "name": "",
-            "link": ""
+            "name": "sp614x",
+            "link": "https://optifine.net/home"
           }
         ],
         "name": "",
@@ -42,8 +42,8 @@
       "link": "https://www.curseforge.com/minecraft/mc-mods/betterfps/files/2483393",
       "serverOnly": false,
       "clientOnly": false,
-      "Redistribute": true,
-      "lisence": {
+      "redistribute": true,
+      "license": {
         "authors": [
           {
             "name": "Guichaguri",
@@ -60,8 +60,8 @@
       "link": "https://www.curseforge.com/minecraft/mc-mods/fastfurnace/files/2706111",
       "serverOnly": false,
       "clientOnly": false,
-      "Redistribute": true,
-      "lisence": {
+      "redistribute": true,
+      "license": {
         "authors": [
           {
             "name": "Shadows_of_Fire",
@@ -78,8 +78,8 @@
       "link": "https://www.curseforge.com/minecraft/mc-mods/fastworkbench/files/2838777",
       "serverOnly": false,
       "clientOnly": false,
-      "Redistribute": true,
-      "lisence": {
+      "redistribute": true,
+      "license": {
         "authors": [
           {
             "name": "Shadows_of_Fire",
@@ -96,8 +96,8 @@
       "link": "https://www.curseforge.com/minecraft/mc-mods/placebo/files/2694382",
       "serverOnly": false,
       "clientOnly": false,
-      "Redistribute": true,
-      "lisence": {
+      "redistribute": true,
+      "license": {
         "authors": [
           {
             "name": "Shadows_of_Fire",
@@ -114,8 +114,8 @@
       "link": "https://www.curseforge.com/minecraft/mc-mods/fps-reducer/files/3042760",
       "serverOnly": false,
       "clientOnly": true,
-      "Redistribute": false,
-      "lisence": {
+      "redistribute": false,
+      "license": {
         "authors": [
           {
             "name": "bre2el",
@@ -132,8 +132,8 @@
       "link": "https://www.curseforge.com/minecraft/mc-mods/smooth-font/files/2949817",
       "serverOnly": false,
       "clientOnly": true,
-      "Redistribute": false,
-      "lisence": {
+      "redistribute": false,
+      "license": {
         "authors": [
           {
             "name": "bre2el",
@@ -150,8 +150,8 @@
       "link": "https://www.curseforge.com/minecraft/mc-mods/voxelmap/files/3029445",
       "serverOnly": false,
       "clientOnly": true,
-      "Redistribute": false,
-      "lisence": {
+      "redistribute": false,
+      "license": {
         "authors": [
           {
             "name": "MamiyaOtaru",
@@ -168,8 +168,8 @@
       "link": "https://www.curseforge.com/minecraft/mc-mods/jei/files/3043174",
       "serverOnly": false,
       "clientOnly": true,
-      "Redistribute": true,
-      "lisence": {
+      "redistribute": true,
+      "license": {
         "authors": [
           {
             "name": "mezz",
@@ -190,8 +190,8 @@
       "link": "https://www.curseforge.com/minecraft/mc-mods/inventory-tweaks/files/2482481",
       "serverOnly": false,
       "clientOnly": true,
-      "Redistribute": true,
-      "lisence": {
+      "redistribute": true,
+      "license": {
         "authors": [
           {
             "name": "JimeoWan",
@@ -212,8 +212,8 @@
       "link": "https://www.curseforge.com/minecraft/mc-mods/break-all-of-the-same-block-and-more/files/2740440",
       "serverOnly": false,
       "clientOnly": false,
-      "Redistribute": false,
-      "lisence": {
+      "redistribute": false,
+      "license": {
         "authors": [
           {
             "name": "scalar001",
@@ -230,8 +230,8 @@
       "link": "https://www.curseforge.com/minecraft/mc-mods/break-all-of-the-same-block-and-more/files/2740439",
       "serverOnly": false,
       "clientOnly": false,
-      "Redistribute": false,
-      "lisence": {
+      "redistribute": false,
+      "license": {
         "authors": [
           {
             "name": "scalar001",
@@ -248,8 +248,8 @@
       "link": "https://www.curseforge.com/minecraft/mc-mods/multi-mine/files/2790649",
       "serverOnly": false,
       "clientOnly": false,
-      "Redistribute": false,
-      "lisence": {
+      "redistribute": false,
+      "license": {
         "authors": [
           {
             "name": "atomicstrykergrumpy",
@@ -266,8 +266,8 @@
       "link": "https://www.curseforge.com/minecraft/mc-mods/dynamic-surroundings/files/2922489",
       "serverOnly": false,
       "clientOnly": true,
-      "Redistribute": false,
-      "lisence": {
+      "redistribute": false,
+      "license": {
         "authors": [
           {
             "name": "OreCruncher",
@@ -284,8 +284,8 @@
       "link": "https://www.curseforge.com/minecraft/mc-mods/mixinbootstrap/files/3076610",
       "serverOnly": false,
       "clientOnly": true,
-      "Redistribute": true,
-      "lisence": {
+      "redistribute": true,
+      "license": {
         "authors": [
           {
             "name": "LX_Gaming",
@@ -302,8 +302,8 @@
       "link": "https://www.curseforge.com/minecraft/mc-mods/orelib/files/2820815",
       "serverOnly": false,
       "clientOnly": true,
-      "Redistribute": true,
-      "lisence": {
+      "redistribute": true,
+      "license": {
         "authors": [
           {
             "name": "OreCruncher",
@@ -320,8 +320,8 @@
       "link": "https://www.curseforge.com/minecraft/mc-mods/mo-bends/files/2984182",
       "serverOnly": false,
       "clientOnly": true,
-      "Redistribute": true,
-      "lisence": {
+      "redistribute": true,
+      "license": {
         "authors": [
           {
             "name": "iwoplaza",
@@ -338,8 +338,8 @@
       "link": "https://www.curseforge.com/minecraft/mc-mods/fence-jumper/files/2591087",
       "serverOnly": false,
       "clientOnly": true,
-      "Redistribute": true,
-      "lisence": {
+      "redistribute": true,
+      "license": {
         "authors": [
           {
             "name": "TheRealp455w0rd",
@@ -356,8 +356,8 @@
       "link": "https://www.curseforge.com/minecraft/mc-mods/fakename/files/2735802",
       "serverOnly": false,
       "clientOnly": false,
-      "Redistribute": true,
-      "lisence": {
+      "redistribute": true,
+      "license": {
         "authors": [
           {
             "name": "Tschipp",
@@ -374,8 +374,8 @@
       "link": "https://www.curseforge.com/minecraft/mc-mods/dirt-deco/files/2666988",
       "serverOnly": false,
       "clientOnly": false,
-      "Redistribute": true,
-      "lisence": {
+      "redistribute": true,
+      "license": {
         "authors": [
           {
             "name": "Kreezxil",
@@ -400,8 +400,8 @@
       "link": "https://www.curseforge.com/minecraft/mc-mods/ceiling-torch/files/2850462",
       "serverOnly": false,
       "clientOnly": false,
-      "Redistribute": true,
-      "lisence": {
+      "redistribute": true,
+      "license": {
         "authors": [
           {
             "name": "bl4ckscor3",
@@ -422,8 +422,8 @@
       "link": "https://www.curseforge.com/minecraft/mc-mods/dynamic-lights/files/2563244",
       "serverOnly": false,
       "clientOnly": false,
-      "Redistribute": true,
-      "lisence": {
+      "redistribute": true,
+      "license": {
         "authors": [
           {
             "name": "atomicstrykergrumpy",
@@ -444,8 +444,8 @@
       "link": "https://www.curseforge.com/minecraft/mc-mods/break-all-of-the-same-block-and-more/files/2740435",
       "serverOnly": false,
       "clientOnly": false,
-      "Redistribute": false,
-      "lisence": {
+      "redistribute": false,
+      "license": {
         "authors": [
           {
             "name": "scalar001",
@@ -462,8 +462,8 @@
       "link": "https://www.curseforge.com/minecraft/mc-mods/lapis-stays-in-the-enchanting-table/files/2553810",
       "serverOnly": false,
       "clientOnly": false,
-      "Redistribute": true,
-      "lisence": {
+      "redistribute": true,
+      "license": {
         "authors": [
           {
             "name": "Forge_User_41096743",
@@ -480,8 +480,8 @@
       "link": "https://www.curseforge.com/minecraft/mc-mods/iron-backpacks/files/2564573",
       "serverOnly": false,
       "clientOnly": false,
-      "Redistribute": true,
-      "lisence": {
+      "redistribute": true,
+      "license": {
         "authors": [
           {
             "name": "gr8pefish",
@@ -506,8 +506,8 @@
       "link": "https://www.curseforge.com/minecraft/mc-mods/iron-chests/files/2747935",
       "serverOnly": false,
       "clientOnly": false,
-      "Redistribute": true,
-      "lisence": {
+      "redistribute": true,
+      "license": {
         "authors": [
           {
             "name": "ProgWML6",
@@ -528,8 +528,8 @@
       "link": "https://www.curseforge.com/minecraft/mc-mods/more-furnaces/files/2627678",
       "serverOnly": false,
       "clientOnly": false,
-      "Redistribute": true,
-      "lisence": {
+      "redistribute": true,
+      "license": {
         "authors": [
           {
             "name": "cubex2",
@@ -546,8 +546,8 @@
       "link": "https://www.curseforge.com/minecraft/mc-mods/cxlibrary/files/2463886",
       "serverOnly": false,
       "clientOnly": false,
-      "Redistribute": true,
-      "lisence": {
+      "redistribute": true,
+      "license": {
         "authors": [
           {
             "name": "cubex2",
@@ -564,8 +564,8 @@
       "link": "https://www.curseforge.com/minecraft/mc-mods/bibliocraft/files/2574880",
       "serverOnly": false,
       "clientOnly": false,
-      "Redistribute": false,
-      "lisence": {
+      "redistribute": false,
+      "license": {
         "authors": [
           {
             "name": "Nuchaz",
@@ -582,8 +582,8 @@
       "link": "https://www.curseforge.com/minecraft/mc-mods/placeable-items/files/2543705",
       "serverOnly": false,
       "clientOnly": false,
-      "Redistribute": false,
-      "lisence": {
+      "redistribute": false,
+      "license": {
         "authors": [
           {
             "name": "Ferdz_",
@@ -604,8 +604,8 @@
       "link": "https://www.curseforge.com/minecraft/mc-mods/xl-food-mod/files/2740774",
       "serverOnly": false,
       "clientOnly": false,
-      "Redistribute": true,
-      "lisence": {
+      "redistribute": true,
+      "license": {
         "authors": [
           {
             "name": "mariot7",
@@ -622,8 +622,8 @@
       "link": "https://www.curseforge.com/minecraft/mc-mods/birds-foods/files/2517254",
       "serverOnly": false,
       "clientOnly": false,
-      "Redistribute": true,
-      "lisence": {
+      "redistribute": true,
+      "license": {
         "authors": [
           {
             "name": "no_space",
@@ -640,8 +640,8 @@
       "link": "https://www.curseforge.com/minecraft/mc-mods/traverse-reforged/files/2613657",
       "serverOnly": false,
       "clientOnly": false,
-      "Redistribute": true,
-      "lisence": {
+      "redistribute": true,
+      "license": {
         "authors": [
           {
             "name": "Noobanidus",
@@ -674,8 +674,8 @@
       "link": "https://www.curseforge.com/minecraft/mc-mods/the-twilight-forest/files/3051450",
       "serverOnly": false,
       "clientOnly": false,
-      "Redistribute": true,
-      "lisence": {
+      "redistribute": true,
+      "license": {
         "authors": [
           {
             "name": "Benimatic",
@@ -728,8 +728,8 @@
       "link": "https://www.curseforge.com/minecraft/mc-mods/ctm/files/2915363",
       "serverOnly": false,
       "clientOnly": false,
-      "Redistribute": true,
-      "lisence": {
+      "redistribute": true,
+      "license": {
         "authors": [
           {
             "name": "tterrag1098",
@@ -754,8 +754,8 @@
       "link": "https://www.curseforge.com/minecraft/mc-mods/patchouli/files/3162874",
       "serverOnly": false,
       "clientOnly": false,
-      "Redistribute": true,
-      "lisence": {
+      "redistribute": true,
+      "license": {
         "authors": [
           {
             "name": "Vazkii",
@@ -776,8 +776,8 @@
       "link": "https://www.curseforge.com/minecraft/mc-mods/silents-gems/files/2804966",
       "serverOnly": false,
       "clientOnly": false,
-      "Redistribute": true,
-      "lisence": {
+      "redistribute": true,
+      "license": {
         "authors": [
           {
             "name": "SilentChaos512",
@@ -794,8 +794,8 @@
       "link": "https://www.curseforge.com/minecraft/mc-mods/silent-lib/files/2851111",
       "serverOnly": false,
       "clientOnly": false,
-      "Redistribute": true,
-      "lisence": {
+      "redistribute": true,
+      "license": {
         "authors": [
           {
             "name": "SilentChaos512",
@@ -812,8 +812,8 @@
       "link": "https://www.curseforge.com/minecraft/mc-mods/dcintegration/files/2970247",
       "serverOnly": true,
       "clientOnly": false,
-      "Redistribute": true,
-      "lisence": {
+      "redistribute": true,
+      "license": {
         "authors": [
           {
             "name": "ErdbeerbaerLP",
@@ -830,8 +830,8 @@
       "link": "https://www.curseforge.com/minecraft/mc-mods/morpheus/files/2664449",
       "serverOnly": true,
       "clientOnly": false,
-      "Redistribute": false,
-      "lisence": {
+      "redistribute": false,
+      "license": {
         "authors": [
           {
             "name": "Quetzi",
