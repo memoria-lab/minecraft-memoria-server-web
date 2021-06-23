@@ -37,21 +37,21 @@ const Page: React.FC = () => {
           content={
             <ItemArea>
               <Text fontSize="22px">サーバーアドレス : minecraft.mmra.me</Text>
-              <Text fontSize="16px" margin="16px 0 0">
+              <Text fontSize="18px" margin="16px 0 0">
                 バージョン : forge 1.12.2
               </Text>
               <DescriptionArea>
-                <Text fontSize="14px">
+                <Text fontSize="16px">
                   {
                     'ホワイトリスト制のため、参加したい場合は めもりあ までご連絡ください。'
                   }
                 </Text>
-                <Text fontSize="14px">
+                <Text fontSize="16px">
                   {
                     'MODを導入しているサーバーのため、クライアント側もMODの導入が必要です。下の方の参加手順をご覧ください。'
                   }
                 </Text>
-                <Text fontSize="14px">
+                <Text fontSize="16px">
                   {'よく分からない方は めもりあ までご連絡ください。'}
                 </Text>
               </DescriptionArea>
@@ -71,7 +71,7 @@ const Page: React.FC = () => {
                 <Text fontSize="22px">Discordめもりあ鯖に参加</Text>
               </ExternalLink>
               <DescriptionArea>
-                <Text fontSize="14px">
+                <Text fontSize="16px">
                   {
                     'MinecraftやApex Legendsなど、ゲーム用のDiscordサーバーです。'
                   }
@@ -89,11 +89,11 @@ const Page: React.FC = () => {
               <Text fontSize="22px">マイクラめもりあ鯖に参加する手順</Text>
               {joinProcess.processes.map((process, index) => (
                 <JoinDescriptionArea key={process.description}>
-                  <Text fontSize="16px">
+                  <Text fontSize="18px">
                     {index + 1}. {process.description}
                   </Text>
                   {process.subdescriptions?.map((subdescription) => (
-                    <Text fontSize="14px" bold key={subdescription}>
+                    <Text fontSize="16px" bold key={subdescription}>
                       {subdescription}
                     </Text>
                   ))}
@@ -115,12 +115,12 @@ const Page: React.FC = () => {
                 <Text fontSize="22px">Mod Packをダウンロード</Text>
               </ExternalLink>
               <DescriptionArea>
-                <Text fontSize="14px">
+                <Text fontSize="16px">
                   {
                     '再配布可能なMODはzipファイルとしてこちらでまとめて提供しています。'
                   }
                 </Text>
-                <Text fontSize="14px">
+                <Text fontSize="16px">
                   {'ライセンスについてはMod Details欄をご覧ください。'}
                 </Text>
               </DescriptionArea>
@@ -133,24 +133,26 @@ const Page: React.FC = () => {
           color="var(--color-4)"
           content={
             <ItemArea>
-              <Text fontSize="16px">
+              <Text fontSize="18px">
                 以下のMODは再配布が禁止されているMODのため、各自でダウンロードをお願いします。
               </Text>
               {modInfo.mods
                 .filter((mod) => !mod.redistribute && !mod.serverOnly)
+                .sort((x, y) =>
+                  x.clientOnly === y.clientOnly ? 0 : x.clientOnly ? 1 : -1
+                )
                 .map((mod) => (
                   <ModArea key={mod.name}>
                     <ExternalLink link={mod.link} color="var(--color-4)">
                       <Text fontSize="22px">{mod.name}</Text>
                     </ExternalLink>
                     <ModDescriptionArea>
-                      {mod.serverOnly && (
-                        <Text fontSize="10px">（サーバーのみ）</Text>
+                      {mod.clientOnly ? (
+                        <Text fontSize="14px">（任意・クライアントのみ） </Text>
+                      ) : (
+                        <Text fontSize="14px">（必須） </Text>
                       )}
-                      {mod.clientOnly && (
-                        <Text fontSize="10px">（クライアントのみ）</Text>
-                      )}
-                      <Text fontSize="14px">{mod.description}</Text>
+                      <Text fontSize="16px">{mod.description}</Text>
                     </ModDescriptionArea>
                   </ModArea>
                 ))}
@@ -163,7 +165,7 @@ const Page: React.FC = () => {
           color="var(--color-4)"
           content={
             <ItemArea>
-              <Text fontSize="16px">
+              <Text fontSize="18px">
                 サーバーに導入されているMODの一覧です。
               </Text>
               {modInfo.mods.map((mod) => (
@@ -178,7 +180,7 @@ const Page: React.FC = () => {
                           link={mod.license.link}
                           color="var(--color-4)"
                         >
-                          <Text fontSize="14px">{mod.license.name}</Text>
+                          <Text fontSize="16px">{mod.license.name}</Text>
                         </ExternalLink>
                       )}
                       {mod.license.authors.map((author) => (
@@ -187,19 +189,19 @@ const Page: React.FC = () => {
                           color="var(--color-4)"
                           key={author.name}
                         >
-                          <Text fontSize="12px">by {author.name}</Text>
+                          <Text fontSize="14px">by {author.name}</Text>
                         </ExternalLink>
                       ))}
                     </ModDescriptionArea>
                   )}
                   <ModDescriptionArea>
                     {mod.serverOnly && (
-                      <Text fontSize="10px">（サーバーのみ）</Text>
+                      <Text fontSize="14px">（サーバーのみ）</Text>
                     )}
                     {mod.clientOnly && (
-                      <Text fontSize="10px">（クライアントのみ）</Text>
+                      <Text fontSize="14px">（クライアントのみ）</Text>
                     )}
-                    <Text fontSize="14px">{mod.description}</Text>
+                    <Text fontSize="16px">{mod.description}</Text>
                   </ModDescriptionArea>
                 </ModArea>
               ))}
