@@ -17,9 +17,9 @@ const Page: React.FC = () => {
   return (
     <IndexArea>
       <ContentArea>
-        <Text fontSize="48px" color="var(--color-1)" margin="0 0 80px">
+        <Text fontSize="32px" color="var(--color-1)" margin="0 0 80px">
           マイクラめもりあ鯖
-          <InlineText fontSize="32px" margin="0 0 0 16px">
+          <InlineText fontSize="24px" margin="0 0 0 16px">
             へ ようこそ
           </InlineText>
         </Text>
