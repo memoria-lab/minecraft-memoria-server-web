@@ -42,6 +42,9 @@ const Page: React.FC = () => {
               </Text>
               <DescriptionArea>
                 <Text fontSize="16px">
+                  {'MOD導入済みのサバイバルサーバーです。'}
+                </Text>
+                <Text fontSize="16px">
                   {
                     'ホワイトリスト制のため、参加したい場合は めもりあ までご連絡ください。'
                   }
