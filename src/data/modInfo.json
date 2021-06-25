@@ -356,7 +356,7 @@
       "link": "https://www.curseforge.com/minecraft/mc-mods/fakename/files/2735802",
       "serverOnly": false,
       "clientOnly": false,
-      "redistribute": true,
+      "redistribute": false,
       "license": {
         "authors": [
           {
