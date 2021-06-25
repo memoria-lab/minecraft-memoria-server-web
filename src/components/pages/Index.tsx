@@ -4,6 +4,7 @@ import OwnerIcon from 'components/elements/icons/OwnerIcon'
 import ServerIcon from 'components/elements/icons/ServerIcon'
 import TwitterIcon from 'components/elements/icons/TwitterIcon'
 import ExternalLink from 'components/elements/texts/ExternalLink'
+import InlineText from 'components/elements/texts/InlineText'
 import Text from 'components/elements/texts/Text'
 import MainTemplate from 'components/templates/MainTemplate'
 import joinProcess from 'data/joinProcess.json'
@@ -16,6 +17,12 @@ const Page: React.FC = () => {
   return (
     <IndexArea>
       <ContentArea>
+        <Text fontSize="48px" color="var(--color-1)" margin="0 0 32px">
+          マイクラめもりあ鯖
+          <InlineText fontSize="32px" margin="0 0 0 16px">
+            へ ようこそ
+          </InlineText>
+        </Text>
         <MainTemplate
           title="Owner"
           icon={<OwnerIcon />}
