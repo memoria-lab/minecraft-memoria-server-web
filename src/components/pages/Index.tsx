@@ -3,6 +3,7 @@ import ModIcon from 'components/elements/icons/ModIcon'
 import OwnerIcon from 'components/elements/icons/OwnerIcon'
 import ServerIcon from 'components/elements/icons/ServerIcon'
 import TwitterIcon from 'components/elements/icons/TwitterIcon'
+import BlockText from 'components/elements/texts/BlockText'
 import ExternalLink from 'components/elements/texts/ExternalLink'
 import Text from 'components/elements/texts/Text'
 import MainTemplate from 'components/templates/MainTemplate'
@@ -81,6 +82,42 @@ const Page: React.FC = () => {
                   {
                     'MinecraftやApex Legendsなど、ゲーム用のDiscordサーバーです。'
                   }
+                </Text>
+              </DescriptionArea>
+            </ItemArea>
+          }
+        />
+        <MainTemplate
+          title="Discord Commands"
+          icon={<DiscordIcon />}
+          color="var(--color-3)"
+          content={
+            <ItemArea>
+              <Text fontSize="22px">
+                {
+                  'Discordからコマンドを使い、マイクラサーバの制御を行うことができます。'
+                }
+              </Text>
+              <Text fontSize="22px" margin="12px 0 0 -4px">
+                <BlockText>Minecraft Moderator</BlockText>
+                の方のみ、本コマンドを使用できます。
+              </Text>
+              <DescriptionArea>
+                <Text fontSize="16px">
+                  <BlockText>/minecraft control:起動</BlockText>
+                  マイクラサーバを起動します。
+                </Text>
+                <Text fontSize="16px">
+                  <BlockText>/minecraft control:停止</BlockText>
+                  マイクラサーバを停止します。
+                </Text>
+                <Text fontSize="16px">
+                  <BlockText>/minecraft control:再起動</BlockText>
+                  マイクラサーバを再起動します。
+                </Text>
+                <Text fontSize="16px">
+                  <BlockText>/minecraft control:ステータスの確認</BlockText>
+                  マイクラサーバが起動しているか確認します。
                 </Text>
               </DescriptionArea>
             </ItemArea>

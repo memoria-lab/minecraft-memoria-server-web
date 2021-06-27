@@ -14,7 +14,8 @@ const GlobalStyleCss = createGlobalStyle`
     --color-2:#341111;
     --color-3:#111c34;
     --color-4:#341131;
-    --color-splash-background:#eaf3d4
+    --color-block-text:#1a1c1d;
+    --color-block-background:#a5b0c7;
   }
 
   html, body {
