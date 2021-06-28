@@ -95,29 +95,29 @@ const Page: React.FC = () => {
             <ItemArea>
               <Text fontSize="22px">
                 {
-                  'Discordからコマンドを使い、マイクラサーバの制御を行うことができます。'
+                  'Discordからコマンドを使い、マイクラサーバーの制御を行うことができます。'
                 }
               </Text>
               <Text fontSize="22px" margin="12px 0 0 -4px">
                 <BlockText>Minecraft Moderator</BlockText>
-                の方のみ、本コマンドを使用できます。
+                の方のみ、制御コマンドを使用できます。
               </Text>
               <DescriptionArea>
                 <Text fontSize="16px">
                   <BlockText>/minecraft control:起動</BlockText>
-                  マイクラサーバを起動します。
+                  マイクラサーバーを起動します。
                 </Text>
                 <Text fontSize="16px">
                   <BlockText>/minecraft control:停止</BlockText>
-                  マイクラサーバを停止します。
+                  マイクラサーバーを停止します。
                 </Text>
                 <Text fontSize="16px">
                   <BlockText>/minecraft control:再起動</BlockText>
-                  マイクラサーバを再起動します。
+                  マイクラサーバーを再起動します。
                 </Text>
                 <Text fontSize="16px">
                   <BlockText>/minecraft control:ステータスの確認</BlockText>
-                  マイクラサーバが起動しているか確認します。
+                  マイクラサーバーが起動しているか確認します。
                 </Text>
               </DescriptionArea>
             </ItemArea>
