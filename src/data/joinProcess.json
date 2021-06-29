@@ -27,6 +27,18 @@
       ]
     },
     {
+      "description": "下のConfig Pack欄からzipファイルをダウンロードする。",
+      "subdescriptions": [
+        "必要な設定ファイルをこちらでまとめて提供しています。"
+      ]
+    },
+    {
+      "description": "手順6でダウンロードした設定ファイルを、configフォルダにすべて入れる。",
+      "subdescriptions": [
+        "zipファイルは解凍し、中のファイルを配置してください。"
+      ]
+    },
+    {
       "description": "下のMod Pack欄からzipファイルをダウンロードする。",
       "subdescriptions": [
         "再配布可能なMODはまとめて提供しています。",
@@ -41,7 +53,10 @@
       ]
     },
     {
-      "description": "手順6と7でダウンロードしたMOD（jarファイル）を、Forgeを起動して生成されたmodsフォルダにすべて入れる。"
+      "description": "手順8と9でダウンロードしたMOD（jarファイル）を、Forgeを起動して生成されたmodsフォルダにすべて入れる。",
+      "subdescriptions": [
+        "zipファイルは解凍し、中のファイルを配置してください。"
+      ]
     },
     {
       "description": "Minecraft Forge 1.12.2を起動する。"

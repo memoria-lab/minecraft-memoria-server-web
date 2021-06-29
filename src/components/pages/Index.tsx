@@ -146,6 +146,29 @@ const Page: React.FC = () => {
           }
         />
         <MainTemplate
+          title="Config Pack"
+          icon={<ModIcon />}
+          color="var(--color-4)"
+          content={
+            <ItemArea>
+              <ExternalLink
+                link="https://www.dropbox.com/s/v4udbz49qev58k5/configpack.zip?dl=1"
+                color="var(--color-4)"
+              >
+                <Text fontSize="22px">Config Packをダウンロード</Text>
+              </ExternalLink>
+              <DescriptionArea>
+                <Text fontSize="16px">
+                  {'必要な設定ファイルをこちらでまとめて提供しています。'}
+                </Text>
+                <Text fontSize="16px">
+                  {'中身をconfigフォルダへ配置してください。'}
+                </Text>
+              </DescriptionArea>
+            </ItemArea>
+          }
+        />
+        <MainTemplate
           title="Mod Pack"
           icon={<ModIcon />}
           color="var(--color-4)"
@@ -162,6 +185,9 @@ const Page: React.FC = () => {
                   {
                     '再配布可能なMODはzipファイルとしてこちらでまとめて提供しています。'
                   }
+                </Text>
+                <Text fontSize="16px">
+                  {'中身をmodsフォルダへ配置してください。'}
                 </Text>
                 <Text fontSize="16px">
                   {'ライセンスについてはMod Details欄をご覧ください。'}
