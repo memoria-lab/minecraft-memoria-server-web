@@ -457,6 +457,24 @@
       }
     },
     {
+      "name": "MineAll",
+      "description": "鉱石を一括破壊できる。",
+      "link": "https://www.curseforge.com/minecraft/mc-mods/break-all-of-the-same-block-and-more/files/2850631",
+      "serverOnly": false,
+      "clientOnly": false,
+      "redistribute": false,
+      "license": {
+        "authors": [
+          {
+            "name": "scalar001",
+            "link": "https://www.curseforge.com/members/scalar001"
+          }
+        ],
+        "name": "Custom License",
+        "link": "https://www.curseforge.com/project/318494/license"
+      }
+    },
+    {
       "name": "Lapis Stays in the Enchanting Table",
       "description": "エンチャントテーブルにラピスラズリを置いたままにできるようになる。",
       "link": "https://www.curseforge.com/minecraft/mc-mods/lapis-stays-in-the-enchanting-table/files/2553810",
