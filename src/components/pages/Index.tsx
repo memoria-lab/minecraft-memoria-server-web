@@ -7,13 +7,51 @@ import BlockText from 'components/elements/texts/BlockText'
 import ExternalLink from 'components/elements/texts/ExternalLink'
 import Text from 'components/elements/texts/Text'
 import MainTemplate from 'components/templates/MainTemplate'
+import API_ENDPOINT, { ServerInfoProps } from 'constants/api'
 import joinProcess from 'data/joinProcess.json'
 import modInfo from 'data/modInfo.json'
 import MemoriaIcon from 'images/memoria.png'
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import styled from 'styled-components'
+import restGet from 'utils/api'
 
 const Page: React.FC = () => {
+  const [serverInfo, setServerInfo] = useState<ServerInfoProps>({
+    isRunning: false,
+    onlinePlayers: 0,
+    isFetched: false,
+  })
+  const [serverStatus, setServerStatus] = useState('確認しています')
+
+  useEffect(() => {
+    const fetchServerInfo = async () => {
+      const result = await restGet(API_ENDPOINT.GET_SERVER_INFO)
+      console.log('result.data', result.data)
+      setServerInfo({
+        ...serverInfo,
+        ...result.data.body,
+        isFetched: true,
+      })
+    }
+    fetchServerInfo()
+  }, [])
+
+  useEffect(() => {
+    if (serverInfo.isFetched) {
+      if (serverInfo.isRunning) {
+        if (serverInfo.onlinePlayers > 0) {
+          setServerStatus(`${serverInfo.onlinePlayers}人がプレイ中`)
+        } else {
+          setServerStatus('稼働しています')
+        }
+      } else {
+        setServerStatus('停止しています')
+      }
+    } else {
+      setServerStatus('確認しています')
+    }
+  }, [serverInfo])
+
   return (
     <IndexArea>
       <ContentArea>
@@ -40,13 +78,23 @@ const Page: React.FC = () => {
           color="var(--color-2)"
           content={
             <ItemArea>
-              <Text fontSize="22px">サーバーアドレス : minecraft.mmra.me</Text>
+              <Text fontSize="22px">
+                {'サーバーアドレス：minecraft.mmra.me'}
+              </Text>
               <Text fontSize="18px" margin="16px 0 0">
-                バージョン : forge 1.12.2
+                {'バージョン：forge 1.12.2'}
+              </Text>
+              <Text fontSize="16px" margin="16px 0 0">
+                {`サーバーステータス：${serverStatus}`}
               </Text>
               <DescriptionArea>
                 <Text fontSize="16px">
                   {'MOD導入済みのサバイバルサーバーです。'}
+                </Text>
+                <Text fontSize="16px">
+                  {
+                    '通常18～26時に稼働しています。26時以降でも、ログインしている方がいればサーバーは稼働し続けます。'
+                  }
                 </Text>
                 <Text fontSize="16px">
                   {

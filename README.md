@@ -1,5 +1,13 @@
 # マイクラめもりあ鯖ウェブ
 
+## 環境設定
+
+```
+REACT_APP_API_KEY=
+REACT_APP_API_BASE_URL=
+REACT_APP_GA_ID=
+```
+
 ## スクリプト一覧
 
 ### `npm start`
