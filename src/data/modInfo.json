@@ -422,7 +422,7 @@
       "link": "https://www.curseforge.com/minecraft/mc-mods/dynamic-lights/files/2563244",
       "serverOnly": false,
       "clientOnly": false,
-      "redistribute": true,
+      "redistribute": false,
       "license": {
         "authors": [
           {
