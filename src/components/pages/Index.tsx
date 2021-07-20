@@ -40,12 +40,12 @@ const Page: React.FC = () => {
     if (serverInfo.isFetched) {
       if (serverInfo.isRunning) {
         if (serverInfo.onlinePlayers > 0) {
-          setServerStatus(`${serverInfo.onlinePlayers}人がプレイ中`)
+          setServerStatus(`オンライン／${serverInfo.onlinePlayers}人がプレイ中`)
         } else {
-          setServerStatus('稼働しています')
+          setServerStatus('オンライン')
         }
       } else {
-        setServerStatus('停止しています')
+        setServerStatus('オフライン')
       }
     } else {
       setServerStatus('確認しています')
